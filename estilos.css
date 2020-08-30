@@ -72,7 +72,7 @@ body{
 .grid-caixas p{
 	color: var(--Azul-acizentado);
 	font-size: 0.7rem;
-	padding: .2rem 1rem 0.6rem 2rem;
+	padding: .2rem 1rem 0.5rem 2rem;
 }
 .grid-caixas svg{
 	margin:1rem 0 0 10rem;
@@ -176,7 +176,7 @@ body{
     		grid-column: auto;
 }
     .grid-caixas p{
-    	font-size: 0.7rem;
+    	font-size: 0.6rem;
     }
     .p{
     	margin: auto;
@@ -232,7 +232,7 @@ body{
     		grid-column: auto;
 }
     .grid-caixas p{
-    	font-size: 0.7rem;
+    	font-size: 0.6rem;
     }
     .p{
     	margin: auto;
