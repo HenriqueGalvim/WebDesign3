@@ -247,6 +247,63 @@ body{
 } 
 
 /*Fim de 300px ate 320px*/
+/* de 260px ate 290px*/
+@media only screen and (min-width: 260px) and (max-width:290px){
+	body h2{
+		font-size: 1.2rem;
+	}
+	.p1{
+		font-size: 1.4rem;
+	}
+	.grid-caixas div{
+
+		width: 14rem;
+		height: 13rem;
+	
+}
+	.grid-caixas{
+		display: grid;
+		grid-template-columns: auto;
+		margin-top: 0rem;
+	   
+	    padding-left: 1rem;
+  	    justify-content: center;
+   	    padding-bottom: 4rem;
+   	    gap: 0rem;
+	}
+	.caixa1, .caixa2, .caixa3, .caixa4 {
+    margin-top: 2rem;
+   
+	}
+	.caixa1{
+		transform: translateY(0rem);
+	}
+	.caixa2{}
+	.caixa3{
+		     transform: translateY(0rem);
+	}
+	.caixa4{
+		     transform: translateY(0rem);
+	}
+	.grid-caixas .caixa3 {
+    		grid-column: auto;
+}
+    .grid-caixas p{
+    	font-size: 0.8rem;
+    }
+    .p{
+    	margin: auto;
+    	font-size: 0.9rem;
+    	 text-align: center;
+
+    }
+    .grid-caixas svg{
+	margin:.5rem 0 0 9rem;
+
+}
+} 
+
+/* de 260px ate 290px*/
 
 
 /*Fim media queries*/
